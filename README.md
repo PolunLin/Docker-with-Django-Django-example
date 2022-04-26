@@ -1,5 +1,18 @@
 # Docker with Django example
 | This repo is for practicing run django service with PostgreSQL in docker container
+
+
+## Table of contents
+
+- [Docker with Django example](#docker-with-django-example)
+  - [Table of contents](#table-of-contents)
+  - [How to Create](#how-to-create)
+    - [1. Create a docker file](#1-create-a-docker-file)
+    - [2. Create requirements.txt file](#2-create-requirementstxt-file)
+    - [3. create docker-compose.yml](#3-create-docker-composeyml)
+  - [Run the application](#run-the-application)
+  - [Set DB connection information](#set-db-connection-information)
+  - [Run docker-compose up](#run-docker-compose-up)
 ## How to Create
 
 ### 1. Create a docker file 
@@ -41,7 +54,7 @@ services:
       - "8000:8000"
 ```
 
-## run the application
+## Run the application
 
 ```bash
 docker-compose run web django-admin startproject django_example .
