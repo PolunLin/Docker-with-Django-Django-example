@@ -13,6 +13,7 @@
   - [Run the application](#run-the-application)
   - [Set DB connection information](#set-db-connection-information)
   - [Run docker-compose up](#run-docker-compose-up)
+  - [Reference](#reference)
 ## How to Create
 
 ### 1. Create a docker file 
@@ -101,3 +102,7 @@ DATABASES = {
 docker-compose up
 ## docker-compose run web python manage.py syncdb
 ```
+
+## Reference
+
+  https://yeasy.gitbook.io/docker_practice/compose/django
